@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+    height: 100vh;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.6);
+    }
+
+    .logo {
+        font-size: 3.3rem;
+        color: #c92996;
+        margin: .3rem 0;
+        cursor: pointer;
+
+        span {
+            color: #6c14d0;
+            text-decoration: underline;
+        }
+
+    }
+
+    .navbar ul {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin: 0.5rem 1.5rem;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+    }
+}
